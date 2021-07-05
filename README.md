@@ -1,16 +1,18 @@
-![Logo](https://user-images.githubusercontent.com/2701938/108583516-c3576680-72ee-11eb-883f-2d9b52e74e45.png)
+![Logo](https://user-images.githubusercontent.com/9555251/124462469-5ecb0e80-dd9a-11eb-9083-01f3e827f8d1.png)
 
-[![Build](https://github.com/mirrorrim/aioarango/actions/workflows/build.yaml/badge.svg)](https://github.com/mirrorrim/aioarango/actions/workflows/build.yaml)
-[![CodeQL](https://github.com/mirrorrim/aioarango/actions/workflows/codeql.yaml/badge.svg)](https://github.com/mirrorrim/aioarango/actions/workflows/codeql.yaml)
-[![CodeCov](https://codecov.io/gh/joowani/python-arango/branch/main/graph/badge.svg?token=DXg0O4hxnx)](https://codecov.io/gh/joowani/python-arango)
-[![PyPI version](https://badge.fury.io/py/python-arango.svg)](https://badge.fury.io/py/python-arango)
+[![CodeCov](https://codecov.io/gh/mirrorrim/aioarango/branch/main/graph/badge.svg?token=DXg0O4hxnx)](https://codecov.io/gh/mirrorrim/aioarango)
+[![PyPI version](https://badge.fury.io/py/aioarango.svg)](https://badge.fury.io/py/aioarango)
 [![GitHub license](https://img.shields.io/badge/license-MIT-brightgreen)](https://github.com/mirrorrim/aioarango/blob/main/LICENSE)
-![Python version](https://img.shields.io/badge/python-3.6%2B-blue)
+![Python version](https://img.shields.io/badge/python-3.7%2B-blue)
 
 # aioarango
 
 Asynchronous python driver for [ArangoDB](https://www.arangodb.com), a scalable multi-model
 database natively supporting documents, graphs and search.
+
+This project is forked from [python-arango](https://github.com/joowani/python-arango). 
+The only change is support for asynchronous API including tests. 
+The current version (1.0.0) fully corresponds to python-arango 7.2.0.
 
 ## Requirements
 
@@ -109,4 +111,4 @@ result = await graph.traverse(
 )
 ```
 
-Please see the [documentation](https://docs.python-arango.com) for more details.
+Please see the [documentation](https://aioarango.readthedocs.io) for more details.
