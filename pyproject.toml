@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "aioarango"
-version = "1.0.0"
+version = "1.0.1"
 description = "Asynchronous driver for ArangoDB"
 authors = ["Alexey Tylindus <a.tylindus@gmail.com>"]
 license = "MIT"
